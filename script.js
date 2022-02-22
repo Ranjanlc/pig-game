@@ -18,7 +18,7 @@ const init = function () {
   //These four variables are local variables. i.e they are available only inside the function. We can say they are scoped to the init function.
   currentScore = 0;
   activePlayer = 0;
-  const scores = [0, 0];
+  scores = [0, 0];
   playing = true;
 
   score0El.textContent = 0;
